@@ -1,16 +1,17 @@
 body{
     background-color:rgb(18, 21, 27);
-    width: 100%;
-    
-     
-    
+    width: auto;
+    display: block;
+    margin: 0;
+   
+      
     
 }
 
-.l-wrap{
-    width: 80%;
-    margin: auto;
+img{
+    max-width: 100%;
 }
+
 
 .logo-kreo{
     width: 65px;
@@ -18,22 +19,18 @@ body{
 }
 .menu-logo{
 
-    
     background-color: rgb(253, 197, 1);
     padding: 20px;
     margin: 0px;
     position: absolute;
     top: 0;
     left: 0;
-
-        
+      
 }
-
 
 .social_media {
    display: none;
 }
-
 nav{
 
  position: absolute;
@@ -45,10 +42,9 @@ nav{
     
 }
 
-
-
 nav ul{
     display: none;
+
 }
 
 nav ul li{
@@ -65,10 +61,10 @@ nav ul li{
 
 .l-main-header{
     
+background-image: url(../images/hero-bg.jpg);
+height: 630px;
+position: relative;
 
-
-   
-    
     
 }
 
@@ -111,19 +107,21 @@ h2 {
     width: 100px;
     background-color: rgb(253, 197, 1); 
     position: relative;
-    content:'\0020';
+    content:'';
     margin: 20px auto;   
 }
 .button-header{
-
+    position:absolute;
     color:white;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin: auto;
+    bottom: 0px;
     text-align: center;
     padding: 20px 30px;
     width: 130px;
     background-color: rgb(230, 78, 4);
     border-radius: 3px;
+
 
 
 }
